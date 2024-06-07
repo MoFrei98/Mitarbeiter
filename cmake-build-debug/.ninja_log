@@ -1,0 +1,14 @@
+# ninja log v6
+49	1102	7394919978485644	CMakeFiles/Mitarbeiter.dir/Mitarbeiter.cpp.obj	9427c460defe404d
+61	1109	7394919978605647	CMakeFiles/Mitarbeiter.dir/Angestellter.cpp.obj	f83a7e57105622b4
+33	1118	7394919978325653	CMakeFiles/Mitarbeiter.dir/main.cpp.obj	fe37729ab5d8fc24
+1118	1666	7394919989177527	Mitarbeiter.exe	ec9051fa154a572e
+20	1158	7394920271100130	CMakeFiles/Mitarbeiter.dir/main.cpp.obj	fe37729ab5d8fc24
+1159	1382	7394920282498293	Mitarbeiter.exe	ec9051fa154a572e
+14	816	7394920953340311	CMakeFiles/Mitarbeiter.dir/main.cpp.obj	fe37729ab5d8fc24
+817	1039	7394920961356605	Mitarbeiter.exe	ec9051fa154a572e
+32	1062	7394921432571199	CMakeFiles/Mitarbeiter.dir/Angestellter.cpp.obj	f83a7e57105622b4
+18	1147	7394921432421173	CMakeFiles/Mitarbeiter.dir/main.cpp.obj	fe37729ab5d8fc24
+1147	1377	7394921443708416	Mitarbeiter.exe	ec9051fa154a572e
+16	1041	7394921621461126	CMakeFiles/Mitarbeiter.dir/main.cpp.obj	fe37729ab5d8fc24
+1043	1264	7394921631719958	Mitarbeiter.exe	ec9051fa154a572e
