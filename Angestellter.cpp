@@ -30,4 +30,8 @@ public:
     void tarifErhoehung(double prozent) {
         gehalt += gehalt * prozent / 100;
     }
+
+    ~Angestellter() {
+        cout << "Angestellter object destroyed" << endl;
+    }
 };
