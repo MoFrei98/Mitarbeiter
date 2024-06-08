@@ -20,7 +20,7 @@ public:
         this->gehalt = gehalt;
     }
 
-    void mitarbeiterInfo() {
+    void mitarbeiterInfo() override {
         Mitarbeiter::mitarbeiterInfo(); // call of the base class method
         cout << "Status: Angestellter" << endl;
         cout << "Gehalt: " << gehalt << endl;
