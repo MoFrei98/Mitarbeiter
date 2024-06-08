@@ -36,7 +36,5 @@ public:
 
     virtual void tarifErhoehung(double prozent) = 0; // not implemented because its a pure virtual function (= 0)
 
-    virtual ~Mitarbeiter() {
-        cout << "Mitarbeiter object destroyed" << endl;
-    }
+    virtual ~Mitarbeiter() = default;
 };

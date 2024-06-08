@@ -16,3 +16,7 @@
 128	2142	7395710240763847	CMakeFiles/Mitarbeiter.dir/Mitarbeiter.cpp.obj	9427c460defe404d
 30	2158	7395710239788555	CMakeFiles/Mitarbeiter.dir/main.cpp.obj	fe37729ab5d8fc24
 2158	3048	7395710261058140	Mitarbeiter.exe	ec9051fa154a572e
+62	1529	7395713698762068	CMakeFiles/Mitarbeiter.dir/Angestellter.cpp.obj	f83a7e57105622b4
+44	1538	7395713698587129	CMakeFiles/Mitarbeiter.dir/Mitarbeiter.cpp.obj	9427c460defe404d
+20	1726	7395713698347029	CMakeFiles/Mitarbeiter.dir/main.cpp.obj	fe37729ab5d8fc24
+1727	2163	7395713715406330	Mitarbeiter.exe	ec9051fa154a572e
