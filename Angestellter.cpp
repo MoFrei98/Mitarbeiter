@@ -27,7 +27,7 @@ public:
         cout << endl;
     }
 
-    void tarifErhoehung(double prozent) {
+    void tarifErhoehung(double prozent) {   // implementation of the pure virtual function (no override keyword needed)
         gehalt += gehalt * prozent / 100;
     }
 };
