@@ -1,33 +1,28 @@
+//
+// Created by morri on 09.06.2024.
+//
+
+#include "Angestellter.h"
+
 #include <iostream>
-#include "Mitarbeiter.cpp"
 using namespace std;
 
-class Angestellter: public Mitarbeiter {
-private:
-    double gehalt;
+Angestellter::Angestellter(string name, int rvNr, double gehalt): Mitarbeiter(std::move(name), rvNr), gehalt(gehalt) {}
 
-public:
-    // Call the constructor of baseclass Mitarbeiter (Mitarbeiter(name, rvNr))
-    Angestellter(string name, int rvNr, double gehalt): Mitarbeiter(name, rvNr), gehalt(gehalt) {
-        // this->gehalt = gehalt;
-    }
+double Angestellter::getGehalt() {
+    return gehalt;
+}
 
-    double getGehalt() {
-        return gehalt;
-    }
+void Angestellter::setGehalt(double gehalt) {
+    this->gehalt = gehalt;
+}
 
-    void setGehalt(double gehalt) {
-        this->gehalt = gehalt;
-    }
+void Angestellter::mitarbeiterInfo() {
+    Mitarbeiter::mitarbeiterInfo();
+    cout << "Typ: Angestellter" << endl;
+    cout << "Gehalt: " << gehalt << endl;
+}
 
-    void mitarbeiterInfo() override {
-        Mitarbeiter::mitarbeiterInfo(); // call of the base class method
-        cout << "Status: Angestellter" << endl;
-        cout << "Gehalt: " << gehalt << endl;
-        cout << endl;
-    }
-
-    void tarifErhoehung(double prozent) {   // implementation of the pure virtual function (no override keyword needed)
-        gehalt += gehalt * prozent / 100;
-    }
-};
+void Angestellter::tarifErhoehung(double prozent)  {
+    gehalt += gehalt * prozent / 100;
+}

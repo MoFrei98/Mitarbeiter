@@ -1,40 +1,31 @@
+//
+// Created by morri on 09.06.2024.
+//
+
+#include "Mitarbeiter.h"
+
 #include <iostream>
 using namespace std;
 
-// Abstract class because it has a pure virtual function
-class Mitarbeiter {
-private:
-    string name;
-    int rvNr;
+Mitarbeiter::Mitarbeiter(string name, int rvNr): name(std::move(name)), rvNr(rvNr) {}
 
-public:
-    Mitarbeiter(string name, int rvNr): name(name), rvNr(rvNr) {
-        // this->name = name;
-        // this->rvNr = rvNr;
-    }
+void Mitarbeiter::mitarbeiterInfo() {
+    cout << "Name: " << name << endl;
+    cout << "Rentenversicherungsnummer: " << rvNr << endl;
+}
 
-    virtual string getName() {
-        return name;
-    }
+string Mitarbeiter::getName() {
+    return name;
+}
 
-    virtual int getRvNr() {
-        return rvNr;
-    }
+void Mitarbeiter::setName(string name) {
+    this->name = std::move(name);
+}
 
-    virtual void setName(string name) {
-        this->name = name;
-    }
+int Mitarbeiter::getRvNr() {
+    return rvNr;
+}
 
-    virtual void setRvNr(int rvNr) {
-        this->rvNr = rvNr;
-    }
-
-    virtual void mitarbeiterInfo() {
-        cout << "Name: " << name << endl;
-        cout << "Rentenversicherungsnummer: " << rvNr << endl;
-    }
-
-    virtual void tarifErhoehung(double prozent) = 0; // not implemented because its a pure virtual function (= 0)
-
-    virtual ~Mitarbeiter() = default;
-};
+void Mitarbeiter::setRvNr(int rvNr) {
+    this->rvNr = rvNr;
+}

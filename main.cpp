@@ -1,5 +1,7 @@
+//#include "AllInOne_Angestellter.cpp"
+#include "Angestellter.h"
+
 #include <iostream>
-#include "Angestellter.cpp"
 using namespace std;
 
 int main() {

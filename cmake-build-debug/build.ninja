@@ -55,6 +55,18 @@ build CMakeFiles/Mitarbeiter.dir/main.cpp.obj: CXX_COMPILER__Mitarbeiter_unscann
   OBJECT_DIR = CMakeFiles\Mitarbeiter.dir
   OBJECT_FILE_DIR = CMakeFiles\Mitarbeiter.dir
 
+build CMakeFiles/Mitarbeiter.dir/AllInOne_Mitarbeiter.cpp.obj: CXX_COMPILER__Mitarbeiter_unscanned_Debug C$:/Users/morri/CLionProjects/Mitarbeiter/AllInOne_Mitarbeiter.cpp || cmake_object_order_depends_target_Mitarbeiter
+  DEP_FILE = CMakeFiles\Mitarbeiter.dir\AllInOne_Mitarbeiter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mitarbeiter.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mitarbeiter.dir
+
+build CMakeFiles/Mitarbeiter.dir/AllInOne_Angestellter.cpp.obj: CXX_COMPILER__Mitarbeiter_unscanned_Debug C$:/Users/morri/CLionProjects/Mitarbeiter/AllInOne_Angestellter.cpp || cmake_object_order_depends_target_Mitarbeiter
+  DEP_FILE = CMakeFiles\Mitarbeiter.dir\AllInOne_Angestellter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mitarbeiter.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mitarbeiter.dir
+
 build CMakeFiles/Mitarbeiter.dir/Mitarbeiter.cpp.obj: CXX_COMPILER__Mitarbeiter_unscanned_Debug C$:/Users/morri/CLionProjects/Mitarbeiter/Mitarbeiter.cpp || cmake_object_order_depends_target_Mitarbeiter
   DEP_FILE = CMakeFiles\Mitarbeiter.dir\Mitarbeiter.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -75,7 +87,7 @@ build CMakeFiles/Mitarbeiter.dir/Angestellter.cpp.obj: CXX_COMPILER__Mitarbeiter
 #############################################
 # Link the executable Mitarbeiter.exe
 
-build Mitarbeiter.exe: CXX_EXECUTABLE_LINKER__Mitarbeiter_Debug CMakeFiles/Mitarbeiter.dir/main.cpp.obj CMakeFiles/Mitarbeiter.dir/Mitarbeiter.cpp.obj CMakeFiles/Mitarbeiter.dir/Angestellter.cpp.obj
+build Mitarbeiter.exe: CXX_EXECUTABLE_LINKER__Mitarbeiter_Debug CMakeFiles/Mitarbeiter.dir/main.cpp.obj CMakeFiles/Mitarbeiter.dir/AllInOne_Mitarbeiter.cpp.obj CMakeFiles/Mitarbeiter.dir/AllInOne_Angestellter.cpp.obj CMakeFiles/Mitarbeiter.dir/Mitarbeiter.cpp.obj CMakeFiles/Mitarbeiter.dir/Angestellter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Mitarbeiter.dir
