@@ -1,7 +1,7 @@
 //
 // Created by morri on 09.06.2024.
 //
-#progma once
+#pragma once
 
 #ifndef MITARBEITER_ANGESTELLTER_H
 #define MITARBEITER_ANGESTELLTER_H
