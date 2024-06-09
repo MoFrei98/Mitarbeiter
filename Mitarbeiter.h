@@ -9,7 +9,6 @@
 #include <iostream>
 using namespace std;
 
-
 class Mitarbeiter {
 private:
     string name;
